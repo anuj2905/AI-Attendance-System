@@ -38,17 +38,6 @@ This system automates attendance tracking, eliminating manual errors and improvi
 
 ---
 
-## 📸 Screenshots
-
-> Add your screenshots here 👇
-
-```
-![Dashboard](screenshot1.png)
-![Attendance](screenshot2.png)
-```
-
----
-
 ## 🚀 How to Run Locally
 
 ```bash
