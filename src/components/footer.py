@@ -82,8 +82,5 @@ def footer_dashboard():
                 🚀 Built by <span class="anuj-highlight">Anuj Patil</span>
             </div>
 
-            <div class="badge">
-                🤖 AI • 🎯 Face Recognition • 🎤 Voice System
-            </div>
         </div>
     """, unsafe_allow_html=True)
