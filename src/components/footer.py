@@ -5,14 +5,14 @@ def footer_home():
     st.markdown("""
         <style>
         .footer-container {
-            margin-top: 2.5rem;
+            margin-top: 3rem;
             text-align: center;
         }
 
         .gradient-text {
             font-weight: 700;
             font-size: 20px;
-            letter-spacing: 0.5px;
+            letter-spacing: 0.6px;
             background: linear-gradient(90deg, #00C9FF, #92FE9D, #ff4b4b);
             background-size: 200% auto;
             -webkit-background-clip: text;
@@ -28,8 +28,9 @@ def footer_home():
 
         .tagline {
             font-size: 12px;
-            color: #aaa;
-            margin-top: 5px;
+            color: #bbb;
+            margin-top: 6px;
+            letter-spacing: 0.3px;
         }
         </style>
 
@@ -38,7 +39,7 @@ def footer_home():
                 ✨ Created with ❤️ by Anuj Patil ✨
             </div>
             <div class="tagline">
-                AI Powered Attendance System
+                AI Powered Attendance System 🚀
             </div>
         </div>
     """, unsafe_allow_html=True)
@@ -48,29 +49,30 @@ def footer_dashboard():
     st.markdown("""
         <style>
         .footer-container {
-            margin-top: 2.5rem;
+            margin-top: 3rem;
             text-align: center;
         }
 
         .text {
             font-size: 16px;
             color: #666;
+            letter-spacing: 0.4px;
         }
 
         .anuj-highlight {
             font-weight: 700;
             color: #ff4b4b;
-            text-shadow: 0 0 6px rgba(255,75,75,0.6);
+            text-shadow: 0 0 8px rgba(255,75,75,0.7);
         }
 
         .badge {
             display: inline-block;
-            margin-top: 6px;
-            padding: 4px 10px;
-            font-size: 11px;
+            margin-top: 10px;
+            padding: 6px 14px;
+            font-size: 12px;
             border-radius: 999px;
-            background: rgba(255, 75, 75, 0.1);
-            color: #ff4b4b;
+            background: linear-gradient(90deg, rgba(255,75,75,0.1), rgba(0,201,255,0.1));
+            color: #333;
             border: 1px solid rgba(255, 75, 75, 0.3);
         }
         </style>
@@ -81,7 +83,7 @@ def footer_dashboard():
             </div>
 
             <div class="badge">
-                AI • Face Recognition • Voice System
+                🤖 AI • 🎯 Face Recognition • 🎤 Voice System
             </div>
         </div>
     """, unsafe_allow_html=True)
